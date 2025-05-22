@@ -1,0 +1,36 @@
+body {
+  background: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+#slot-game {
+  text-align: center;
+}
+.reel-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 64px);
+  grid-template-rows: repeat(5, 64px);
+  gap: 5px;
+  margin-bottom: 10px;
+}
+.cell {
+  background: #222;
+  border-radius: 6px;
+  font-size: 32px;
+  line-height: 64px;
+  text-align: center;
+  color: #fff;
+}
+.highlight {
+  box-shadow: 0 0 10px gold;
+}
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
